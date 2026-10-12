@@ -1,0 +1,76 @@
+/* Color Palette
+# - #1F3A4D  deep navy (header/footer)
+# - #F4EFE6  warm cream (work experience)
+# - #DCE8E4  soft mint (education)
+# - #E9A23B  amber (links/accents)
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: #222;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* Header & Footer
+------------------------------------*/
+header,
+footer {
+    background-color: #1F3A4D;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header h2 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+footer a {
+    color: #E9A23B;
+    margin: 0 10px;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background-color: #F4EFE6;
+    padding: 40px 20px;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #DCE8E4;
+    padding: 40px 20px;
+}
